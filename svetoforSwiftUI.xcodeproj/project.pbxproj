@@ -11,6 +11,7 @@
 		CACCDC0727BC12FE0049AC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCDC0627BC12FE0049AC2A /* ContentView.swift */; };
 		CACCDC0927BC130B0049AC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACCDC0827BC130B0049AC2A /* Assets.xcassets */; };
 		CACCDC0C27BC130B0049AC2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACCDC0B27BC130B0049AC2A /* Preview Assets.xcassets */; };
+		CACCDC1927BC20B40049AC2A /* CircleSvetofor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCDC1827BC20B40049AC2A /* CircleSvetofor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CACCDC0827BC130B0049AC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CACCDC0B27BC130B0049AC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CACCDC0D27BC130B0049AC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACCDC1827BC20B40049AC2A /* CircleSvetofor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSvetofor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				CACCDC0427BC12FE0049AC2A /* svetoforSwiftUIApp.swift */,
 				CACCDC0627BC12FE0049AC2A /* ContentView.swift */,
+				CACCDC1827BC20B40049AC2A /* CircleSvetofor.swift */,
 				CACCDC0827BC130B0049AC2A /* Assets.xcassets */,
 				CACCDC0D27BC130B0049AC2A /* Info.plist */,
 				CACCDC0A27BC130B0049AC2A /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				CACCDC0727BC12FE0049AC2A /* ContentView.swift in Sources */,
 				CACCDC0527BC12FE0049AC2A /* svetoforSwiftUIApp.swift in Sources */,
+				CACCDC1927BC20B40049AC2A /* CircleSvetofor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
