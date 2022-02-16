@@ -20,6 +20,7 @@ struct CircleSvetofor: View {
             .frame(width: diameter, height: diameter)
             .foregroundColor(colorofLight)
             .overlay(Circle().stroke(Color.black, lineWidth: 4))
+            .shadow(color: colorofLight, radius: 20 )
             .opacity(opacity)
     }
 }

@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var tapCount = 0
-    @State var redOpacity: Double = 0.2
-    @State var yellowOpacity: Double = 0.2
-    @State var greenOpacity: Double = 0.2
+    @State private var tapCount = 0
+    @State private var redOpacity: Double = 0.2
+    @State private var yellowOpacity: Double = 0.2
+    @State private var greenOpacity: Double = 0.2
     @State var text = Text("Press")
     
     var body: some View {
@@ -33,7 +33,6 @@ struct ContentView: View {
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 })
         }
-        .padding()
     }
     
     func nextColor(){
